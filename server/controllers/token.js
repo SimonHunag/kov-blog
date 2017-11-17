@@ -25,9 +25,9 @@ function* seed(){
   //utils.print(user);
   if(0 === user.length){
     user = new User({
-      name: 'admin',
-      username:'admin',
-      password:md5('password').toUpperCase(),
+      name: 'simon',
+      username:'simon',
+      password:md5('hua513566').toUpperCase(),
       avatar:'',
       createTime: new Date()
     })

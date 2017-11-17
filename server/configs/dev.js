@@ -5,7 +5,7 @@ module.exports = {
   env:'development',
   debug:true,
   mongoConfig: {
-    url: 'mongodb://localhost:27017/kov-blog-dev',
+    url: 'mongodb://172.17.0.1:27017/kov-blog-dev',
     opts:{
       user:'',
       pass:''
