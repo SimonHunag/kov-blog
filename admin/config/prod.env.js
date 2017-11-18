@@ -2,7 +2,7 @@ var fs = require('fs');
 var merge = require('webpack-merge')
 config = {
   NODE_ENV: '"production"',
-  api:'"//localhost:3000/api/"'
+  api:'"//api.laosijiyou.com/api/"'
 }
 
 if(process.env.NODE_ENV === 'production'){
